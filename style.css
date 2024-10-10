@@ -1,0 +1,102 @@
+        
+body {
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(91, 241, 91);
+}
+.topContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto 10px auto;
+    padding: 0;
+}
+#computerChoice, #userChoice {
+    width: 190px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-left: 2px;
+}
+.resultsCont {
+    background-color: rgb(44, 41, 41);
+    max-width: 500px;
+    height: 200px;
+    margin: 5px auto 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.choices{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choices div {
+    margin: 0;
+}
+.message {
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(209, 214, 208);
+}
+
+.buttons {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.texts {
+    background-color: black;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border-right: none;
+}
+.mainScores {
+    color: white;
+    width: 55%;
+    height: 100%;
+    background-color: rgba(68, 66, 66, 0.973);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scoreText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 12px;
+}
+.btn {
+    border-style: none;
+    padding: 10px;
+    color: rgb(24, 20, 20);
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+.bottom {
+    margin: 70px auto 0 auto;
+    max-width: 200px;
+    text-align: center;
+}
+.howto {
+    color: brown;
+}
+.reset {
+    padding: 3px 10px;
+    color: blue;
+    text-decoration: underline;
+
+}

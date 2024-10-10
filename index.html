@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>funny color game</title>
+</head>
+<body>
+    
+    <div class="topContainer">
+        <div class="logoSide">
+            <h3>ColorBinge</h3>
+        </div>
+        <div class="scores">
+            <div class="scoresKeeper">
+                <p class="texts"><span class="scoreText">scores </span><span class="mainScores">0</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="resultsCont">
+        <div class="choices">
+            <div id="computerChoice"></div>
+            <div id="userChoice"></div>
+        </div>
+        <div class="message">
+            Gain scores by choosing a color matching computer's
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button class="btn">RED</button>
+        <button class="btn">GREEN</button>
+        <button class="btn">YELLOW</button>
+    </div>
+
+    <div class="bottom">
+        <span class="howto"><a href="howto.html">How to</a></span>
+        <span class="reset" onclick="localStorage.setItem('gameScores',JSON.stringify(0));window.location.reload()">Reset</span>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
