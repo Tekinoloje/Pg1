@@ -89,7 +89,6 @@ body {
 .bottom {
     margin: 70px auto 0 auto;
     max-width: 200px;
-    text-align: center;
 }
 .reset {
     padding: 3px 10px;
@@ -98,8 +97,10 @@ body {
 }
 
 #btn-bottom {
+    text-align: center;
+    text-decoration: none;
     background-color: rgb(220,220,220);
     padding: 5px 10px;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
 }
