@@ -91,12 +91,15 @@ body {
     max-width: 200px;
     text-align: center;
 }
-.howto {
-    color: brown;
-}
 .reset {
     padding: 3px 10px;
     color: blue;
     text-decoration: underline;
+}
 
+#btn-bottom {
+    background-color: rgb(220,220,220);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
 }
