@@ -82,7 +82,7 @@ body {
     border-style: none;
     padding: 10px;
     color: rgb(24, 20, 20);
-    border-radius: 5px;
+    border-radius: 10px;
     width: 100px;
     cursor: pointer;
 }
@@ -91,12 +91,6 @@ body {
     max-width: 200px;
 }
 .reset {
-    padding: 3px 10px;
-    color: blue;
-    text-decoration: underline;
-}
-span {
-    text-decoration: none;
     color: blue;
 }
 #btn-bottom {
