@@ -95,12 +95,13 @@ body {
     color: blue;
     text-decoration: underline;
 }
-
+span {
+    text-decoration: none;
+    color: blue;
+}
 #btn-bottom {
     text-align: center;
-    text-decoration: none;
     background-color: rgb(220,220,220);
-    padding: 5px 10px;
-    border: none;
-    border-radius: 30px;
+    padding: 15px 0px;
+    border-radius: 50px;
 }
